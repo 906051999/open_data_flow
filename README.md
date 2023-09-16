@@ -1,2 +1,10 @@
 # open_data_flow
-思想数据开源的工作流，构筑数字孪生世界的基础
+```mermaid
+stateDiagram-v2
+  风向 --> Attention
+  事件 --> Attention
+  节点 --> Attention
+  Attention --> Interest 
+  Interest --> Idea
+  Idea --> Project
+```
